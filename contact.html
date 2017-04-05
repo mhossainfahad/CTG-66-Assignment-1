@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Contact</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <style>
+            address { text-align: center;}
+        </style>
+    </head>
+
+    <body class="bg_color">
+       
+        <h4> Smaller heading than (h1,h2,h3) </h4>
+        <ul class="topMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        
+       
+        <!-- <form> specifies form elements as shown below-->
+        <h5> Smaller heading than (h1,h2,h3,h4) </h5>
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+            
+            <p class="para"> &ltform&gt specifies elements which is used to take User Inputs </p>
+            Name:<br>
+            <input type="text" name="name" value="Enter Name"><br> 
+            Birthday:<br>
+            <input type="datetime-local" name="bday"><br> 
+            E-mail:<br>
+            <input type="text" name="mail" value="Enter mail"><br> 
+            User password:<br>
+            <input type="password" name="psw"><br> 
+            Comment:<br>
+            <input type="text" name="comment" value="Add Comments" size="50">
+            <br>
+            <input type="radio" name="gender" value="Male" checked> 
+            Male<br>
+            <input type="radio" name="gender" value="Female"> 
+            Female<br>
+            <input type="radio" name="gender" value="Others"> 
+            Other<br>
+            
+            <p class="para"> &ltselect&gt specifies elements to choose from in a drop-down menu </p>
+            <select name="Cars">
+                    <option value="Ferrari">Ferrari</option>
+                    <option value="Maserati">Maserati</option>
+                    <option value="Fiat">Fiat</option>
+                    <option value="Audi">Audi</option>
+            </select>
+            <br>
+            
+            <p class="para"> &lttextarea&gt specifies a box for text Inputs </p>
+            <textarea name="message" rows="10" cols="30">The boy was playing in the playground.</textarea>
+            <br>
+            
+            <p class="para"> &ltbutton&gt specifies button elements to create dialog box </p>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+            <br>
+            
+            
+            <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+            <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+            <br>
+            <input type="color" name="favcolor" value="#ff0000">
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
+        
+        <p class="para"> &ltaddress&gt specifies Addresses</p>
+        <address>
+            CodersTrustBD, <br>
+            House 82, Rd No. 19/A, <br> 
+            Dhaka-1213, Bangladesh.
+        </address>
+    </body>
+
+</html>
